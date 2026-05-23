@@ -28,8 +28,8 @@ public class Controller {
         CompletableFuture<HolderLookup.Provider> provider = e.getLookupProvider();
         var output = gen.getPackOutput();
 
-        e.createDatapackRegistryObjects(new RegistrySetBuilder(),
-                Set.of("minecraft", MODULE_ID, CakeStickLib.MODULE_ID));
+        // e.createDatapackRegistryObjects(new RegistrySetBuilder(),
+        //         Set.of("minecraft", MODULE_ID, CakeStickLib.MODULE_ID));
 
         // client
 
