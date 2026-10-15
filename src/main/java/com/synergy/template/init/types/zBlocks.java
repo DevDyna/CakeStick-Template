@@ -10,9 +10,11 @@ public class zBlocks {
     public static void register(IEventBus bus) {
         zBlock.register(bus);
         zBlockItem.register(bus);
+        zBlockFluids.register(bus);
     }
 
     public static final DeferredRegister.Blocks zBlock = DeferredRegister.createBlocks(MODULE_ID);
     public static final DeferredRegister.Blocks zBlockItem = DeferredRegister.createBlocks(MODULE_ID);
+    public static final DeferredRegister.Blocks zBlockFluids = DeferredRegister.createBlocks(MODULE_ID);
 
 }
