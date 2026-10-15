@@ -30,6 +30,7 @@ public class Controller {
 
         e.addProvider(new DataModel(output));
         e.addProvider(new DataLang(output));
+        e.addProvider(new DataParticle(output));
 
         // server
 
