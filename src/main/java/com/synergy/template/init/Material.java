@@ -15,6 +15,14 @@ public class Material {
                 zBlocks.register(bus);
                 zBlockEntities.register(bus);
                 zRecipeTypes.register(bus);
+                zComponents.register(bus);
+                zContainers.register(bus);
+                zCreativeTab.register(bus);
+                zFluids.register(bus);
+                zHandlers.register(bus);
+                zParticles.register(bus);
+                zTags.register(bus);
+                zWorldGenFeatures.register(bus);
         }
 
         public static DeferredHolder<Block, Block> registerItemBlock(String blockname,
